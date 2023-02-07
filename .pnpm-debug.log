@@ -1,0 +1,40 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {},
+    "prefix": "/Users/huynvn/.pnpm-store/v3/tmp/_npx/81012/5"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/huynvn/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/huynvn/.pnpm-store/v3/tmp/_npx/81012/5/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/huynvn/.pnpm-store/v3/tmp/_npx/81012/5",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:update-check": {
+    "currentVersion": "6.32.17",
+    "latestVersion": "7.1.7"
+  },
+  "5 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "create-mf-a is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/create-mf-a"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "create-mf-a",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/create-mf-a: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/create-mf-a: Not Found - 404\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85826:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  }
+}
